@@ -1,5 +1,5 @@
 <template>
-    <principal/>
+  <principal/>
 </template>
 
 <script>
@@ -9,7 +9,6 @@ export default {
     components: {
         Principal
     }
-
 }
 </script>
 
