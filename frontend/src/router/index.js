@@ -1,32 +1,31 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Principal from '../views/Principal.vue';
-//import Administrador from '../views/Administrador.vue';
-//import Cliente from '../views/Cliente';
+import Principal from '../views/principal.vue';
+
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Principal',
+    name: 'principal',
     component: Principal
   },
   {
-    path: '/administrador',
-    name: 'Administrador',
+    path: '/producto',
+    name: 'producto',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Administrador.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/producto.vue')
   },
   {
     path: '/cliente',
-    name: 'Cliente',
+    name: 'cliente',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Cliente.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/cliente.vue')
   }
 ]
 

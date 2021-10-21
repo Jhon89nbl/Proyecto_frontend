@@ -1,5 +1,5 @@
 <template>
-  <productos-carga/>
+  <producto/>
 </template>
 
 <script>
