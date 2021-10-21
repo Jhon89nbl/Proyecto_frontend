@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Principal from '../views/Principal.vue';
-import Administrador from '../views/Administrador.vue';
-import Cliente from '../views/Cliente';
+//import Administrador from '../views/Administrador.vue';
+//import Cliente from '../views/Cliente';
 
 Vue.use(VueRouter)
 
