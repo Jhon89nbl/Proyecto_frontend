@@ -1,10 +1,14 @@
 <template>
-    
+    <principal/>
 </template>
 
 <script>
-import Producto from '../components/PagPrincipal.vue';
+import Principal from '../components/Principal.vue';
+
 export default {
+    components: {
+        Principal
+    }
 
 }
 </script>

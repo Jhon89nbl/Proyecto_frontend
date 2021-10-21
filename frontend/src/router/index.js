@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Principal from '../views/Principal.vue';
+import principal from '../views/Principal.vue';
 
 
 Vue.use(VueRouter)
@@ -9,7 +9,7 @@ const routes = [
   {
     path: '/',
     name: 'principal',
-    component: Principal
+    component: principal
   },
   {
     path: '/producto',
