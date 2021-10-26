@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import principal from '../views/Principal.vue';
-
+import Principal from '../views/Principal.vue'
 
 Vue.use(VueRouter)
 
@@ -9,19 +8,19 @@ const routes = [
   {
     path: '/',
     name: 'principal',
-    component: principal
+    component: Principal
   },
   {
     path: '/producto',
-    name: 'producto',
+    name: 'Producto',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Producto.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/producto.vue')
   },
   {
     path: '/cliente',
-    name: 'cliente',
+    name: 'Cliente',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.

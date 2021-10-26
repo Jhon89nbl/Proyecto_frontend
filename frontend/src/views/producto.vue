@@ -4,11 +4,11 @@
 
 <script>
 import Producto from '../components/Producto.vue';
-
 export default {
-    components: {
+    components:{
         Producto
     }
+
 }
 </script>
 
